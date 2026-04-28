@@ -1,7 +1,5 @@
  # Manajemen Data Nilai Mahasiswa
 
-<img width="597" height="187" alt="image" src="https://github.com/user-attachments/assets/33ae3a36-6f8b-4109-a08d-a8b6a92c9b63" />
-
 ## DESKRIPSI PROGRAM
 Program ini adalah implementasi dari struktur data array 1 dimensi menggunakan bahasa python. Program ini digunakan untuk menyimpan dan mengelola sekumpulan data nilai siswa dalam satu variabel. Dalam pprogram ini, setiap nilai disimoan dalam sebuah array yang memiliki index tertentu, sehingga memudahkan proses pengolahan data secara terstruktur. 
 
