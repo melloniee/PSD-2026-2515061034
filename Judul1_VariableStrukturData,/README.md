@@ -133,6 +133,8 @@ ini merupakan salah satu output dari try - exceptValueError, jika user memasukka
 <img width="203" height="42" alt="image" src="https://github.com/user-attachments/assets/bec63256-2e31-4002-b7d5-8f3ef853cb36" />
 ini merupakan output jika user memilih menu diluar angka (1-5) 
 
+## LINK VIDEO YOUTUBE 
+https://youtu.be/Cv-JqRqgyOc
 
 
 
