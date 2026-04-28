@@ -1,4 +1,6 @@
-<img width="597" height="187" alt="image" src="https://github.com/user-attachments/assets/33ae3a36-6f8b-4109-a08d-a8b6a92c9b63" /># Manajemen Data Nilai Siswa
+ # Manajemen Data Nilai Mahasiswa
+
+<img width="597" height="187" alt="image" src="https://github.com/user-attachments/assets/33ae3a36-6f8b-4109-a08d-a8b6a92c9b63" />
 
 ## DESKRIPSI PROGRAM
 Program ini adalah implementasi dari struktur data array 1 dimensi menggunakan bahasa python. Program ini digunakan untuk menyimpan dan mengelola sekumpulan data nilai siswa dalam satu variabel. Dalam pprogram ini, setiap nilai disimoan dalam sebuah array yang memiliki index tertentu, sehingga memudahkan proses pengolahan data secara terstruktur. 
@@ -23,7 +25,7 @@ baris 11 a = [0] * 6 adalah variabel untuk menyimpan data pada list yang berisi 
 
 baris 12 berfungsi untuk mengontrol loop pada program. Selama program bernilai True maka loop akan terus berjalan
 
-baris 13 berfungsi untuk menjalankan program utana 
+baris 13 berfungsi untuk menjalankan program utama 
 
 baris 14 menunjukkan jika kondisi true maka akan memanggil fungsi menu
 
