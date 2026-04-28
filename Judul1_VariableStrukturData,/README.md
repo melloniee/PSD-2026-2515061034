@@ -106,8 +106,32 @@ baris 61 dan 62 berfungsi sebagai pengkondisian terakhir (else) jika user tidak 
 
 baris 64 dan 65 menunjukkan kapan sebuah fungsi dijalankan 'main'
 
+## OUTPUT
+<img width="442" height="171" alt="image" src="https://github.com/user-attachments/assets/9fa3271a-6cce-46cc-ab5d-429af6e74697" />
+ini merupakan output jika kita run code nya 
+
+<img width="445" height="193" alt="image" src="https://github.com/user-attachments/assets/685c9aed-8ead-46a8-aae9-6f3e20401ba8" />
+
+ini merupakan output jika kita memilih menu pertama dan memasukkan nilai mahasiswa nya 
+
+<img width="744" height="63" alt="image" src="https://github.com/user-attachments/assets/ce243903-f5e2-4164-9d5b-c42684fb99a7" />
+ini merupakan output jika kita memilih menu ke dua yaitu menghapus data dari list, maka data yg dihapus akan berubah menjadi 0 
+
+<img width="623" height="64" alt="image" src="https://github.com/user-attachments/assets/8bd3d7b1-9c4d-471d-b4ab-27b105f7cb06" />
+ini merupakan output jika kita memilih menu 3 yaitu mencari nilai, maka akan tampil nilai  yang  dicari beserta alamatnya 
+
+<img width="611" height="126" alt="image" src="https://github.com/user-attachments/assets/891e7e26-cba4-4d4e-b1d7-d446fbae9d68" />
+ini merupakan output jika kita memilih menu 4 yaitu tampilkan semua nilai, maka nilai akan tampil beserta alamat penyimpanan dalam list 
+
+<img width="322" height="39" alt="image" src="https://github.com/user-attachments/assets/95034cb5-45a5-45b5-b48a-b06ddb546f47" />
+jika user memilih menu 5 maka program akan selesai 
 
 
+<img width="466" height="48" alt="image" src="https://github.com/user-attachments/assets/69f2d7c9-36e0-4edf-9310-2cde854e6067" />
+ini merupakan salah satu output dari try - exceptValueError, jika user memasukkan data yang tidak sesuai dengan ketentuan yang diminta (data atau nilai tidak berupa angka)
+
+<img width="203" height="42" alt="image" src="https://github.com/user-attachments/assets/bec63256-2e31-4002-b7d5-8f3ef853cb36" />
+ini merupakan output jika user memilih menu diluar angka (1-5) 
 
 
 
