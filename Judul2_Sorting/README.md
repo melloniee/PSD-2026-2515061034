@@ -73,5 +73,20 @@ baris 35 dan 36 ini berfungsi untuk menampilkan dan memanggil fungsi main yang d
 
 # OUTPUT
 
+<img width="580" height="84" alt="image" src="https://github.com/user-attachments/assets/89331235-4723-45dc-a28c-7e93911d7872" />
+ini merupakan tampilan awal ketika code di running dan user memasukkan jumlah saham yang inign diurutkan 
+
+<img width="421" height="204" alt="image" src="https://github.com/user-attachments/assets/47bfbf53-e50c-4310-861d-441f47b29703" />
+ini merupakan output dari nilai yang user inputkan kedalam sistem 
+
+<img width="282" height="104" alt="image" src="https://github.com/user-attachments/assets/80e2d9c6-7bda-4843-b07d-b0993b760a38" />
+ini output dari data yang belum terurutkan 
+
+<img width="520" height="114" alt="image" src="https://github.com/user-attachments/assets/eb553a37-7c77-49e1-994a-24d2f7f606b0" />
+ini merupakan output dari saham yang sudah diurutkan berdasaerkan nilai keuntungannya 
+
+
+
+
 
 
