@@ -85,7 +85,8 @@ ini output dari data yang belum terurutkan
 <img width="520" height="114" alt="image" src="https://github.com/user-attachments/assets/eb553a37-7c77-49e1-994a-24d2f7f606b0" />
 ini merupakan output dari saham yang sudah diurutkan berdasaerkan nilai keuntungannya 
 
-
+# LINK YOUTUBE
+https://youtu.be/xkP0d9wwVSk
 
 
 
