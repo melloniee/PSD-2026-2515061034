@@ -8,17 +8,19 @@ Pada proses pencarian, program akan memeriksa data secara berurutan dari awal hi
 
 ## SOURCE CODE
 
-<img width="366" height="68" alt="image" src="https://github.com/user-attachments/assets/8269bc79-1910-47de-bd93-16499000765c" />
+<img width="591" height="35" alt="image" src="https://github.com/user-attachments/assets/d81f9082-49a3-46d5-9c84-89ffb2c000d1" />
+
 Baris pertama menunjukkan program akan dimulai dan menampilkan kalimat "Selamat datang....."
 
-<img width="539" height="109" alt="image" src="https://github.com/user-attachments/assets/b63539dc-6718-4d4a-a0a9-ae62afe26e5b"
+<img width="376" height="74" alt="image" src="https://github.com/user-attachments/assets/35cafa4c-8830-45b0-bf01-a3867265b214" />
+
 baris 3 merupakan fungsi untuk mencari data berdasakan prodi 
 
 baris 4 adalah array rsult yang akan menyimpan hasilnya
 
 baris 5 adalah variabel counter yanhg berfungsi untuk menyimpan seberapa banyak data yang ditemukan  
 
-<img width="753" height="160" alt="image" src="https://github.com/user-attachments/assets/b64c4ad4-dd69-4463-baa6-f7a407fe14e4" />
+<img width="541" height="104" alt="image" src="https://github.com/user-attachments/assets/e8e1827d-c203-4b67-ac33-5584914b4faa" />
 
 baris 7 merupakan kondisi perulangan jika item terdapat  di variabel data, dan mengambil data satu persatu
 
@@ -28,7 +30,7 @@ baris 9 berfungsi untuk menambahkan item ke dalam array result
 
 baris 10 merupakan counter dimana jika data ditemukan maka counter akan bertambah 1 
 
-<img width="589" height="213" alt="image" src="https://github.com/user-attachments/assets/d8e5c057-b283-493a-b9f6-8a8d104cbf3e" />
+<img width="791" height="205" alt="image" src="https://github.com/user-attachments/assets/9086c17a-da67-4ea0-9df9-85545fde1710" />
 
 baris 12 -13 yaitu pengkondisian dinnana jika counter lebih besar dari 0 maka program akan menampilkan data dan ditemukan sebanyak berapa kali (counter)
 
@@ -38,7 +40,7 @@ baris 16-17 berfungsi jika kesemua data tidak ada, maka program akan menampikkan
 
 baris 19 berfungsi untuk mengembalikan nilai dari result
 
-<img width="747" height="197" alt="image" src="https://github.com/user-attachments/assets/f0cc6aea-1385-4751-a687-5bf676551880" />
+<img width="559" height="191" alt="image" src="https://github.com/user-attachments/assets/a1e3e8ac-8acc-4270-acd1-bbd9cc8a4d1d" />
 
 baris 21 merupakan fungsi untuk mencari data berdasarkan nama dengan parameter data dan target nama
 
@@ -54,12 +56,9 @@ baeis 27 berfungsi untuk menambahkan item ke dalam data result
 
 baris 28 counter sama seperti baris 10 dia befungsi untuk mengetahui data yg sama muncul berapa kali
 
-<img width="748" height="151" alt="image" src="https://github.com/user-attachments/assets/bb2ea5ee-936f-4224-a355-78331546322d" />
+<img width="702" height="189" alt="image" src="https://github.com/user-attachments/assets/6b3af1be-eefc-4c39-9b4e-429db6a7887f" />
 
 baris 30-31 merupakan pengondisian apakah counter lebih besar  dari 0 maka program akan menampilkan data berupa nama dan ditemukan sebanyajk berapa kali 
-
-
-<img width="563" height="383" alt="image" src="https://github.com/user-attachments/assets/a3462af9-dc11-4635-95de-9d3fbaf4693b" />
 
 baris 32-33 befungsi untuk menampilkan hasil jika data sudah ditemukan, program akan menampilkan nama, ipk dan prodi
 
@@ -67,13 +66,13 @@ baris 34-35 merupakan kondisi  terakhr dimana jika data tidak ditemukan maka sis
   
 baris  37 befungsi untuk menghembalikan nilai result
 
-<img width="612" height="239" alt="image" src="https://github.com/user-attachments/assets/36f4aa41-9f00-4bc5-8b42-295993d27cf1" />
+<img width="560" height="375" alt="image" src="https://github.com/user-attachments/assets/b15d0fe2-ff04-4b8f-8bfb-3ba4a4f9b7f4" />
 
 baris 39 merupakan fungsi main yg dimana didalamnya terdapat alur sistemnya
 
 baris  40-54 merupakakan array berisi data
 
-<img width="770" height="251" alt="image" src="https://github.com/user-attachments/assets/712132b7-eef2-4685-8c17-a1a5e9589826" />
+<img width="667" height="216" alt="image" src="https://github.com/user-attachments/assets/167efa1c-7b27-4619-89bf-179281305e34" />
 
 baris 56 merupakan  perulangan while : true, jika keadaan benar maka fungsi akan berjalan
 
@@ -81,7 +80,7 @@ baris 57-62 berfungsi menampilkan menu dari sistem
 
 baris 64 berfungsi untuk meminta input dari user  terkait menu  yg akan dipilih dan disimpan dalam variabel pilihan
 
-<img width="693" height="98" alt="image" src="https://github.com/user-attachments/assets/cecf218f-28b5-4cae-b5e8-c237647e76a9" />
+<img width="674" height="256" alt="image" src="https://github.com/user-attachments/assets/443cdcb9-5b07-43eb-ab60-341d6263118a" />
 
 baris 66 - 67 merupakan pengkondisian jika memilih menu 1 maka sistem akan meminta input berupa program studi tujuan dan disimpan dalam variabel target_prodi
 
@@ -97,9 +96,11 @@ baris 74 yaitu break, berfungsi untuk menghentikan looping
 
 baris 75 - 76 merupakan penngkondisian terakhir jika input yang dimasukkan oleh user  tidak sesuai dengan menu, maka akan tampil "Pilihan tidak valid"
 
-<img width="509" height="142" alt="image" src="https://github.com/user-attachments/assets/85ae94c6-070d-4660-8732-6583f256beaa" />
+<img width="603" height="35" alt="image" src="https://github.com/user-attachments/assets/80033b7e-2e67-4e45-8667-7b250e1200a8" />
 
 baris 78 berfungsi untuk meminta user menekan enter guna melanjutkan program dan kembali menampilkan menu
+
+<img width="322" height="92" alt="image" src="https://github.com/user-attachments/assets/082950ca-cab3-4454-8fad-402aa0e71b69" />
 
 baris 80 - 81 berfungsi untuk memanggil fungsi main agar program dapat berjalan
 
@@ -125,7 +126,7 @@ ini merupakan output ketika user memilih menu ke 2 dan mencari berdasarkan nama
 
 ini merupakan kondisi output ketika memilih menu 1 berdasarkan prodi, maka akan menampilkan keseluruhan data yang terkait dengan prodi tujuan 
 
-![Uploading image.png…]()
+<img width="422" height="170" alt="image" src="https://github.com/user-attachments/assets/7966ff4f-2798-47cd-9f0b-6418e4b4e4be" />
 
 ini merupakan output ketika user memilih 3, maka program akan berhenti 
 
