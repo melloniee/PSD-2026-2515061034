@@ -25,4 +25,38 @@ baris 11  merupakan fungsi untuk mengecek antrian kosong atau tidak
 
 baris 12 untuk mengembalikan  nilai  mengecek apakah queue masih kosong dengan melihat pointer depannya.
 
+<img width="754" height="247" alt="image" src="https://github.com/user-attachments/assets/9f6f3d90-6c2c-4189-b48c-43108b0b2cbe" />
+
+baris 14 merupakan fungsin enqueue dengan parameter self dan x 
+
+baris 15 berfungsi untuk menyimpan node baru yaitu x dalam variabel new_node
+
+baris 16 berfungsi untuk mengecek apakah antrian kosong
+
+baris 17 dan 18 berfungsi jika kondisi 16 terpenuhi, dimana jika antrian kosong maka pointer di depan (front) dan di  belakang (rear) akan menuju ke new node 
+
+baris 20 berfungsi untuk kondisi ke 2
+
+baris 21 berunngsi jika antrian tidak kosong, maka pointer belakang (rear) akan beralih ke node selanjutnya. karena itu buat .next, node baru akan ditambahkan di bagiann belakang antrian 
+
+baris 22 berfungi untuk memindahka pointer rear ke node baru, karena node baru sudah menjadi elemen paling belakang  
+
+baris 23 berfungsi untuk memberikan output dari operasi enqueue atau penambahan data 
+
+<img width="541" height="274" alt="image" src="https://github.com/user-attachments/assets/9efa7c61-deac-44c2-9d01-b0e8ec94439b" />
+
+baris 25 berfungsi melakukan operasi hapus yaitu  dequeue
+
+baris 26 berfungsi untuk mengecek apakah antrian ini kosong 
+
+baris 27 jika antrian kosong maka program akan menampilkan pesan "antrian saat ini kosong" 
+
+Baris 28 berfungsi untuk menghentikan proses function apabila antrian kosong, sehingga proses dequeue tidak dapat dilanjutkan.
+
+baris 29 berfungsi sebagai tempat penyimpanan sementara node yang akan di hapus (front) 
+
+baris 30 berfungsi untuk memindahkan pointer front ke node berikutnya, sehingga node paling depan dianggap sudah terhapus 
+
+
+
 
