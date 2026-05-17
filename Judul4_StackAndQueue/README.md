@@ -215,30 +215,39 @@ baris 128 -129 berfungsi untuk memanggil fungsi main agar program dapat berjalan
 # OUTPUT
 
 <img width="345" height="187" alt="image" src="https://github.com/user-attachments/assets/3cf75559-9c7b-48b7-9410-11c307fcf753" />
+
 ini merupakan output saat program pertama kali di run
 
 <img width="570" height="115" alt="image" src="https://github.com/user-attachments/assets/02e48243-62a7-446f-a69b-74456886ba98" />
+
 ini merupakan output saat user memilih menu 1 dan memasukkan data yang diminta
 
 <img width="548" height="77" alt="image" src="https://github.com/user-attachments/assets/4a97090a-f0f6-46d8-92ad-bc4165af11f8" />
+
 ini merupakan output saat user memilih menu ke 2 dan prosess tiket dimulai
 
 <img width="769" height="60" alt="image" src="https://github.com/user-attachments/assets/51060be3-6e74-402b-92a0-246ce2a40967" />
+
 ini merupakan output saat user memilih menu ke 3 maka akan tampil urutan antrian tiket
 
 <img width="433" height="48" alt="image" src="https://github.com/user-attachments/assets/f78510c1-7c97-49da-8c66-05df5feffad1" />
+
 ini merupakan output saat user memilih menu ke 4 dan akan tampil urutan terdepan pada antrian
 
 <img width="454" height="73" alt="image" src="https://github.com/user-attachments/assets/5cd5b70a-8e8b-474c-a56c-8d675ffe03b2" />
+
 ini merupakan output saat user memilih menu ke 5 akan tampil data nama pemesan yang dicari
 
 <img width="294" height="45" alt="image" src="https://github.com/user-attachments/assets/f161a9b6-97f7-448f-a191-574e4b79bddb" />
+
 ini merupakan output ketika user memilih menu 6 program akan berhenti 
 
 <img width="459" height="56" alt="image" src="https://github.com/user-attachments/assets/ad9d68b6-4980-40f9-b007-a4ec6bc8b980" />
+
 ini merupakan output jika input user tidak sesuai dengan yang program minta, maka code try - except akan bekerja 
 
 <img width="394" height="49" alt="image" src="https://github.com/user-attachments/assets/236a2b65-0e09-49cb-a265-5bcd4cbcb242" />
+
 ini kondisi jika user salah menginputkan angka untuk menu 
 
 
