@@ -64,6 +64,49 @@ baris 29 berfungsi sebagai tempat penyimpanan sementara node yang akan di hapus 
 
 baris 30 berfungsi untuk memindahkan pointer front ke node berikutnya, sehingga node paling depan dianggap sudah terhapus 
 
+baris 32 berfungsi untuk  mengecek apakah setelah dilakukan operasi dequeue antrian akan kosong 
+
+baris 33 berfungsi jika node sebelumnya sudah tidak ada antrian, maka dari itu rear juga harus None, karena antrian sudah kosong
+
+baris 35 berfungsi untuk mengembalikan data node yang sudah terhapus dari queue
+
+<img width="496" height="120" alt="image" src="https://github.com/user-attachments/assets/fc01bc21-ffa3-4932-acd3-8179d9036579" />
+
+baris 37 meruapakan fungsi operasi peek, yaitu melihat elemen teratas tanpa menghapus elemennya 
+
+baris 38 dan 39 berfungsi untuk mengecek apakah antrian kosong dan akan mengembalikan nilai None
+
+baris 40 merupakan fungsi untuk mengembalikan nilai pada front pointer teratas berdasarkan elemen di data 
+
+<img width="494" height="242" alt="image" src="https://github.com/user-attachments/assets/0b10b148-6855-4922-91a7-94065a4d4510" />
+
+baris 42 merupakan fungsi display atau menampilkan semua  data 
+
+baris 43 dan 44 berfungsi untuk memeriksa apakah antrian kosong, jika kosong maka program akan menampilkan output "Antrian Kosong"
+
+baris 45 berfungsi untuk menghentikan function 
+
+baris 46 berfungsi untuk menampilkan antrian saat ini 
+
+baris 47 berfungsi sebagai pointer semenetara untuk transerval yg akan ditelusuri , current = self.front_pointer maksudnya adalah current dimulai dari node paling depan 
+
+baris 48 merupakan perulangan while jika current tidak kosong 
+
+baris 49 berfungsi untuk menampilkan isi node yang sedang ditunjuk current
+
+baris 50 berfungsi untuk menunjuk ke node berikutnya 
+
+baris 51 berfungsi untuk pindah ke baris baru setelah semua data selesai ditampilkan.
+
+<img width="328" height="104" alt="image" src="https://github.com/user-attachments/assets/fed89cb1-75ef-41e1-9343-da157d5c73b6" />
+
+baris 53 merupakan fungsi utama yaitu fungsi main
+
+baris 54 berfungsi untuk menyimpan queueLinkedlist yang akan disimpan pada variabel queue
+
+baris 55 yaitu menu yang berfungsi menimpan pilihan user 
+
+
 
 
 
