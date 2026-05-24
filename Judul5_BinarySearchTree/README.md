@@ -73,7 +73,71 @@ baris 43-44 berfungsi jika key lebih besar dari root.key maka akan ditambahkan d
 
 baris 45 befungsi untuk mengembalikan nilai root
 
- aris
+ <img width="735" height="194" alt="image" src="https://github.com/user-attachments/assets/6ca33e64-dc19-45ed-9295-54828c8f7b03" />
+
+ baris 47 - 48 berfungsi untuk menambahkan data dengan key (ID) dan nama 
+
+ baris 50 befungsi untuk mencari nilai minimal dari node
+
+ baris 51 berfungsi untuk menelusuri tree mulai dari root
+
+ baris 52-54 berfungsi untuk mengecek apakah current ini terisi dan currrent sebelah kiri juga terisi, jika ya maka akan dilakukan pencarian di sebelah kiri dan akan mengembalikan nilai current
+
+ <img width="771" height="435" alt="image" src="https://github.com/user-attachments/assets/7fd8545a-2c55-4a26-9e91-f39c8880ccfe" /> 
+
+ baris 56 berfungsi untuk menghapus node dengan key tertentu dari tree
+
+ baris 57-58 berfungsi untuk mengecek apakah root kosong, jika kosong maka akan mereturn None
+
+ baris 59 - 60 befungsi untuk mengecek apakah key lebih kecil dari root tertentu, jika iya maka akan menghapus dibagian kiri
+
+baris 61-62 kondisi untuk mengecek aoakah key lebih besar dari root tertentu, jika ya maka akan dilakukan penghapusan disebelah kanan
+
+baris 63-65 merupakan kondisi dimana jika root kiri dan kanan kosong maka akan mereturn None
+
+baris 66 - 67 berfungsi untuk mengecek apakah root kiri kosong, jika root kiri kosong maka akan menghapus anak kanannya
+
+baris 68-69 befungsi untuk mengcek apakah root kanan kosong, jika kosong maka akan menghapus anak kirinya
+
+baris 70-71 merupakan kondisi terakhir dan menggunakan successor untuk mencari node pengganti ketika node yang akan dihapus memiliki 2 anak, mencari nilai terkecil dari root sebelah kanan
+
+baris 72 berfungsi untuk menggantikan key dengan successor
+
+baris 73- 74 berfungsi untuk menghapus successor setelah menggantikan node yang akan dihapus dan mengenmbalikan nilai root
+
+<img width="606" height="398" alt="image" src="https://github.com/user-attachments/assets/5ad2994c-c6fb-41f8-9a7b-376bf5fdc5a4" />
+
+baris 76 merupakan fungsi untuk menghapus dengan key tertentu 
+
+baris 77 berfungsi untuk menghapus key dalam root 
+
+baris 79 merupakan fungsi untuk menampilkan root
+
+baris 80-82 berfungsi untuk mengecek apakah root kosong, jiika kosong maka akan menampilkan pesan kosong dan return 
+
+baris 83 berfungsin untuk menyimpan nilai dari queue
+
+baris 84 berfungsi untuk menambahkan root kedalam queue
+
+baris 85 - 87 berfungsi sebagai perulangan while jika panjang queue lebih dari 0, maka akan menghapus elemen pertama dan menyimpannya dalam variabel current dan menampilkan nilai dari current tsb
+
+baris 88 - 89 berfungsi untuk mengecek bagian kiri, jika tidak kosong maka akan menambahkan anak kiri ke dalam antrian
+
+baris 90-91 berfungsi untuk mengecek bagian kanan, jika tidak kosong maka akan menambahkan anak ke dallam antrian
+
+baris 92 berfungsi untuk membuat baris baru ketika sudah mencetak semua 
+
+<img width="651" height="416" alt="image" src="https://github.com/user-attachments/assets/11cb7845-781a-43af-bdcf-c405f1ce0672" />
+
+baris 94, merupakan fungsi untuk mencari successor dengan parameter key dan root 
+
+
+
+
+
+
+
+
 
 
 
