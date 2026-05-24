@@ -131,6 +131,38 @@ baris 92 berfungsi untuk membuat baris baru ketika sudah mencetak semua
 
 baris 94, merupakan fungsi untuk mencari successor dengan parameter key dan root 
 
+baris 95 berfungsi untuk menyimpan root dalam variabe current
+
+baris 96 menginisialisasikan sucessor itu none
+
+baris 97 - 100 berfungsi untuk mengecek current jika tidak kosong maka akan memeriksa apakah key lebih kecil daripada key yg dituju, maika successor akan digantikan dengan nilai dari  current, dan pada baris 100 current sebelah kiri akan masuk dan disimpan dalam variabel current
+
+baris 101 - 102 berfungsi untuk memeriksa key apakah lebih besar dari current key, jika lebih besar maka akan menggantikan nilai current sebelah kanan
+
+baris 103-104 kondisi terakhir dan akan menghentikan looping 
+
+baris 105 - 106 untuk kondisi current ini None maka akan mereturn False
+
+107 - 108 untuk kondisi anak kanan tidak kosong, maka successor akan mencari node pengganti ketikda node yang akan dihapus memiliki 2 anak, dan mencari node terkecil di subtree kanan
+
+baris 109 - 110 merupakan kondisi dimana sucessor itu kosong , maka akan mereturn None
+
+baris 111 berfungsi untuk mengembalikan node sucessor dan status True
+
+<img width="766" height="491" alt="image" src="https://github.com/user-attachments/assets/d6dadc90-748f-484c-838d-94d8f2e0e6ae" />
+
+baris 113 merupakan fungsi untuk mencari predecessor dengan root dan key
+
+baris 114 berfungsi untuk menelusuri pohon mulai dari rootnya
+
+baris 115 berfungsi untuk inisialisasi predecessor kosong 
+
+baris 116 - 117 berfungsi untuk kondisi current tidak kosong, lalu mengecek apakah key lebih kecil daro current key ini
+
+baris 118 currrent akan mengarahkan ke sebelah kiri
+
+baris 119 
+
 
 
 
