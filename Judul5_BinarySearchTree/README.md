@@ -161,7 +161,218 @@ baris 116 - 117 berfungsi untuk kondisi current tidak kosong, lalu mengecek apak
 
 baris 118 currrent akan mengarahkan ke sebelah kiri
 
-baris 119 
+baris 119 berfungsi untuk membandingkan key dengan current key, jika lebiih besar 
+
+baris 120 prodecessor akan menyimpan current 
+
+baris 121 current diarahkan ke kanan
+
+baris 122 - 123 berfungsi untuk menghentikan loop
+
+baris 124 - 125 berfungsi dengan kondisi current kosong, maka akan mereturn None
+
+baris 126 berfungsi untuk mencari node predecessor dri node kunci ke arah kiri
+
+baris 127 telusuri sub tree kanan
+
+baris 128 - 129 berfungsi untuk ketika temp.right tidak kosong, maka akan menulusuri dari kanan
+
+baris 130 predecessor mengambil node paling kanan 
+
+baris 131 - 132 berfungsi jika predecessor kosong, maka akan return false
+
+barsi 133 mengembalkikan nilai predecessor
+
+<img width="558" height="240" alt="image" src="https://github.com/user-attachments/assets/0e9e9c35-c5a3-41b6-a307-2252652c46d0" />
+
+baris 135 merupakan fungsi search dengan root dan key (id)
+
+baris 136 berfungsi untuk menelusuri tree dari root
+
+baris 137 berfungsi jika current tidak kosong
+
+baris 138 - 139 jika key sama dengan key yg dicari, maka akan menampilkan hasilnya dan mereturn TRUE
+
+baris 140 kondisi jika key lebih kecil dari yg dicari
+
+baris 141 current akan menelusuri ke bagian kiri 
+
+baris 142 - 143 kondisi jika key lebih besar, maka akan menelusuri sebelah kanan
+
+baris 144 berfungsi jika root kosong dan akan mereturn False 
+
+<img width="763" height="329" alt="image" src="https://github.com/user-attachments/assets/d846c3c0-f503-40db-930b-3a0ec4483f18" />
+
+baris 146 merupakan fungsi main
+
+baris 147 berfungsi untuk membuat instance dri class BST
+
+baris 148 berfungsi untuk menyimpan pilihan menu
+
+baris 149 merupakan perulangan while 
+
+baris 150 - 156 merupakan menu dari sistem dan akan dijalankan ketika input bernilai True
+
+baris 158 merupakan fungsi try except
+
+baris 159 berfungsi untuk meminta input dari user dan disimpan dalam variabel pilih
+
+baris 160 - 161 berfungsi sebagai penanganan error jika input tidak sesuai
+
+baris 162 berfungsi untuk melanjutkan ke prses selanjutnya
+
+<img width="763" height="180" alt="image" src="https://github.com/user-attachments/assets/ff16603d-a70a-45ee-ae7f-8bfe32ab3203" />
+
+baris 164 merupakan kondisi pilihan 1
+
+baris 165 merupakan penanganan error 
+
+baris 166 berfungsi untuk meminta id dri user dan disimpan dalam key
+
+baris 167 berfungsi untuk meminta nama 
+
+baris 169 berfungsi untuk menambahkan key dan nama ke dalam BST
+
+baris 170 akan menampilkan output berhasil ditambahkan
+
+baris 171 - 172 penanganan error jika input tidak sesuai 
+
+<img width="734" height="144" alt="image" src="https://github.com/user-attachments/assets/a6a171f8-dc3d-44c9-ae6e-23db029c8806" />
+
+baris 174 merupakan pilihan ke 2
+
+baris 175 berfungsi sebagai penanganan error try
+
+baris 176 befungsi untuk meminta input dri user untuk memasukkan nama dan disimpan dalam variabel done
+
+baris 177 akan menampilkan output 
+
+baris 178 berfungsi untuj menghapus key atau yg diminta  user
+
+baris 179 - 180 berfungsi sebagai output jika error
+
+<img width="769" height="257" alt="image" src="https://github.com/user-attachments/assets/5f04c438-1080-42eb-8b70-875fc23ebb66" />
+
+baris 182 merupakan kondisi pilihan ke 3
+
+baris 183 penanganan error
+
+baris 184 berfunggsi untuk meminta user menginputkan id yg ingin dicari 
+
+baris 185 berfungsi memanggil fungsi search untuk mencari data  di bst.root 
+
+baris 187 kondisi jika data ditemukan
+
+baris 188 - 190 berfungsi menampilkan data yang dicari
+
+baris 191 - 192 kondisi jika data tidak ditemukan
+
+baris 193 - 194 jika id tidak berupa angka
+
+<img width="1442" height="400" alt="image" src="https://github.com/user-attachments/assets/e19d94bf-dad6-466e-a628-2953ae099cc6" />
+
+baris 196 merupakan kondisi ke 4 
+
+baris 197 - 198 berfungsi untuk menampilkan data orang hilang dengan memanggil fungsi level_order
+
+baris 200 berfungsi untuk meminta user memasukkan id untuk melihat riwayat 
+
+baris 202 berfungsi untuk mencari node sucessor dan disimpan dalam variabel pred_sucessor dan found sucessor untuk menyimpan node yg ditemukan
+
+baris 203 - 204 berfungsi jika node ditemukan, amka akan menampilkan output
+
+baris 205 - 206 jika node tidak ditemmukan
+
+baris 208 berfungsi untuk mencari prdecessor dengan key tertentu dan menyimpannya dalam variabel pred predecessor dan fpound preedecessor 
+
+baris 209 - 210 berfungsi jika predecessor ditemukan maka aakan menampilkan riwayat data sebelumnnya 
+
+baris 211 - 212 jika data tidak ditemukan
+
+<img width="1002" height="464" alt="image" src="https://github.com/user-attachments/assets/7339e038-31d7-44c2-9949-881b427f3d15" />
+
+baris 214 merupakan kondisi ke 5 
+
+baris 215 merupakan penanganan error
+
+baris 216 & 217 berfungsi meminta input id dan data tambahan investigasi
+
+baris 219 berfungsi untuk menelusuri node tree dri root
+
+baris 220 merupakan perulangan while jika currrent terisi
+
+baris 221 - 222 mengecek apakah key lebih kecil current key, jika lebih kecil maka akan menelusuri sebelah kiri
+
+baris 223 - 224 memgecek apakah key lebih besar dari current key, jika besar maka akan menelusuri dari sebelah kanan
+
+baris 225 - 227 berfungsi untuk menambahkan data riwayat ke dalam stack menggunakan push dan menampilkan output berhasil
+
+baris 228 berfungsi untuk menghentikan loop
+
+baris 230 berfungsi jika current kosong
+
+baris 231 berfungsi untuk menampilkan id yg tiidak ditemukan
+
+baris 232 - 233 merupakan penaganan error jika id diinputkan tidak berupa angka
+
+<img width="1330" height="201" alt="image" src="https://github.com/user-attachments/assets/05ba1e5b-50f3-44d7-a1da-3a080a0473b4" />
+
+baris 235 merupakan kondisi ke 6
+
+baris 236 akan menampilkan output terimakasih
+
+baris 237 menghentikan loop dan program
+
+baris 238 - 239 diesekusi jika salah input menu
+
+baris 241 - 242 berfungsi untuk memanggil fungsi main 
+
+## OUTPUT
+
+<img width="707" height="182" alt="image" src="https://github.com/user-attachments/assets/209f3e79-5946-4356-8f11-5beb002b7e4c" />
+
+Output ketika run code nya
+
+<img width="684" height="91" alt="image" src="https://github.com/user-attachments/assets/22c368d4-afa6-4da1-a320-bc1b2978d3b8" />
+
+output ketika memilih menu 1 dan menginputkan  id serta nama 
+
+<img width="521" height="79" alt="image" src="https://github.com/user-attachments/assets/9dc23cc2-883b-462f-a2e1-18e1d4f8e499" />
+
+output ketika memilih menu 2, sistem akan memproses data dan menghapusnya dari root
+
+<img width="574" height="92" alt="image" src="https://github.com/user-attachments/assets/0bafcb98-beb4-442c-b24b-2da523ed000a" />
+
+merupakan output ketika memilih menu 3 dan menampilkan nama orang hilang 
+
+<img width="737" height="127" alt="image" src="https://github.com/user-attachments/assets/15c4ef14-7e2e-489d-a30f-d245fbad2bf4" />
+
+merupakan output ketika memilih menu 4 dan menampilkan riiwayat data investigasi
+
+<img width="651" height="81" alt="image" src="https://github.com/user-attachments/assets/bd8a7ce1-1041-4a46-8eb1-317756591dda" />
+
+merupakan output ketika memilih menu 5 dan riwayat investigasi ditambahkan
+
+<img width="567" height="98" alt="image" src="https://github.com/user-attachments/assets/844e725e-d329-46dc-8179-73100b275baf" />
+
+output ketika riwayat investigasi sudah ditambahkan
+
+<img width="1068" height="44" alt="image" src="https://github.com/user-attachments/assets/506f522c-24c0-4c24-b6df-0907fa9dc307" />
+
+output ketika memilih menu 6 dan program berhenti
+
+<img width="536" height="52" alt="image" src="https://github.com/user-attachments/assets/86c6a530-9779-4f1e-8852-90b69cc10fc1" />
+
+kondisi ketika user tidak menginputkan menu dengan benar
+
+<img width="413" height="47" alt="image" src="https://github.com/user-attachments/assets/ccd18c1d-5de5-43b3-b212-86dc31da2231" />
+
+kondisi ketika user memasukkan data tidak berupa angka 
+
+## LINK YOUTUBE
+
+
+
 
 
 
