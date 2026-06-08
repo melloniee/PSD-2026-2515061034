@@ -10,11 +10,13 @@ Program ini dibuat untuk melakukan operasi dasar pada Hash Map, seperti menambah
 
 baris 1 berfungsi untuk membuat Node yang akan digunakan pada linkedlist
 
-baris 2 berfungsi untuk menyimpan key
+baris 2 buat node untuk menyimpan key dan value
 
-baris 3 berfungsi untuk menyimpan value
+baris 3 berfungsi untuk menyimpan key
 
-baris 4 berfungsi untuk menginisialisasai data selanjutnya masih kosong 
+baris 4 berfungsi untuk menyimpan value
+
+baris 5 berfungsi untuk menginisialisasai data selanjutnya masih kosong 
 
 
 <img width="488" height="104" alt="image" src="https://github.com/user-attachments/assets/82e96bb5-82e3-4dc8-9b94-acc7c4f3a493" />
